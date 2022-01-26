@@ -18,10 +18,10 @@ library(scales)
 #=====================
 
 # Upload all data
-q2_2019 <- read.csv("C:\\Users\\148\\Desktop\\GoogleCapstone\\q2_2019.csv")
-q3_2019 <- read.csv("C:\\Users\\148\\Desktop\\GoogleCapstone\\q3_2019.csv")
-q4_2019 <- read.csv("C:\\Users\\148\\Desktop\\GoogleCapstone\\q4_2019.csv")
-q1_2020 <- read.csv("C:\\Users\\148\\Desktop\\GoogleCapstone\\q1_2020.csv")
+q2_2019 <- read.csv("q2_2019.csv")
+q3_2019 <- read.csv("q3_2019.csv")
+q4_2019 <- read.csv("q4_2019.csv")
+q1_2020 <- read.csv("q1_2020.csv")
 
 
 
