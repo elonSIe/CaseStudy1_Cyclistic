@@ -18,10 +18,10 @@ library(scales)
 #=====================
 
 # Upload all data
-q2_2019 <- read.csv("C:\\Users\\148\\Desktop\\GoogleCapstone\\q2_2019.csv")
-q3_2019 <- read.csv("C:\\Users\\148\\Desktop\\GoogleCapstone\\q3_2019.csv")
-q4_2019 <- read.csv("C:\\Users\\148\\Desktop\\GoogleCapstone\\q4_2019.csv")
-q1_2020 <- read.csv("C:\\Users\\148\\Desktop\\GoogleCapstone\\q1_2020.csv")
+q2_2019 <- read.csv("q2_2019.csv")
+q3_2019 <- read.csv("q3_2019.csv")
+q4_2019 <- read.csv("q4_2019.csv")
+q1_2020 <- read.csv("q1_2020.csv")
 
 
 
@@ -287,6 +287,6 @@ all_trips_v2 %>%
 # Create a csv file that we will visualize in Excel or Tableau
 counts <- aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual +
                       all_trips_v2$day_of_week, FUN = mean)
-write.csv(counts, file = "C:\\Users\\148\\Desktop\\GoogleCapstone\\220127counts.csv")
+write.csv(counts, file = "counts.csv")
 '''
 '''
